@@ -3,7 +3,7 @@
 > 专业的在线屏幕质量检测工具，帮助您快速发现屏幕问题
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/yourusername/screen-test)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/geeeeeeeek/monitor)
 
 ## 项目介绍
 
@@ -31,7 +31,7 @@
 
 ## 在线演示
 
-访问 [在线演示地址](#) 立即体验
+访问 [https://geeeeeeeek.github.io/monitor/](https://geeeeeeeek.github.io/monitor/) 立即体验
 
 ## 技术栈
 
@@ -54,8 +54,8 @@
 1. **克隆项目**
 
 ```bash
-git clone https://github.com/yourusername/screen-test.git
-cd screen-test
+git clone https://github.com/geeeeeeeek/monitor.git
+cd monitor
 ```
 
 2. **直接打开**
@@ -100,7 +100,7 @@ sudo mkdir -p /var/www/screen-test
 # 上传文件（使用 scp、ftp 或 git clone）
 # 示例：使用 git
 cd /var/www/screen-test
-sudo git clone https://github.com/yourusername/screen-test.git .
+sudo git clone https://github.com/geeeeeeeek/monitor.git .
 ```
 
 #### 2. 设置文件权限
@@ -232,12 +232,14 @@ sudo ufw enable
 ## 项目结构
 
 ```
-screen-test/
+monitor/
 ├── index.html          # 主页面
 ├── about.html          # 关于页面
 ├── privacy.html        # 隐私政策页面
-├── style.css           # 全局样式文件
-├── script.js           # 核心交互逻辑
+├── css/
+│   └── style.css       # 全局样式文件
+├── js/
+│   └── script.js       # 核心交互逻辑
 ├── .gitignore          # Git 忽略文件
 └── README.md           # 项目文档
 ```
@@ -287,6 +289,8 @@ screen-test/
 
 **丁老师**
 
+- GitHub: [@geeeeeeeek](https://github.com/geeeeeeeek)
+- 项目地址: [https://github.com/geeeeeeeek/monitor](https://github.com/geeeeeeeek/monitor)
 - 如有问题或建议，欢迎提交 Issue
 
 ## 更新日志
