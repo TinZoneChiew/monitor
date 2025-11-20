@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>屏幕检测专家 - 专业的在线屏幕质量检测工具 | 丁老师出品</title>
+    <meta name="description" content="屏幕检测专家是一款免费的在线屏幕质量检测工具,支持坏点检测、漏光测试、色彩检测、对比度测试等8种专业检测模式。由丁老师开发,帮助您快速发现屏幕问题,适用于新机验收、二手交易等场景。">
+    <meta name="keywords" content="屏幕检测,坏点检测,漏光测试,屏幕测试工具,显示器检测,LCD测试,OLED测试,丁老师">
+    <meta name="author" content="丁老师">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>屏幕检测专家</h1>
+            <p class="subtitle">专业的在线屏幕质量检测工具，支持多种检测模式</p>
+        </header>
+
+        <main class="test-grid">
+            <div class="test-card" onclick="startTest('solidColor')">
+                <div class="card-icon">🎨</div>
+                <div class="card-content">
+                    <h3>纯色测试</h3>
+                    <p>检测屏幕坏点、亮点和暗点，支持黑、白、红、绿、蓝等多种颜色</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('lightLeak')">
+                <div class="card-icon">💡</div>
+                <div class="card-content">
+                    <h3>漏光测试</h3>
+                    <p>在黑色背景下检测屏幕边缘和角落的漏光情况</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('interference')">
+                <div class="card-icon">📊</div>
+                <div class="card-content">
+                    <h3>干扰测试</h3>
+                    <p>通过网格和条纹图案检测屏幕的像素排列和干扰问题</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('focus')">
+                <div class="card-icon">🎯</div>
+                <div class="card-content">
+                    <h3>对焦测试</h3>
+                    <p>检测屏幕的清晰度和锐度，确保显示内容清晰</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('breathing')">
+                <div class="card-icon">🌊</div>
+                <div class="card-content">
+                    <h3>呼吸效应</h3>
+                    <p>检测屏幕亮度变化是否均匀，是否存在闪烁问题</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('contrast')">
+                <div class="card-icon">⚫⚪</div>
+                <div class="card-content">
+                    <h3>对比度测试</h3>
+                    <p>测试屏幕的黑白对比度和灰度层次表现</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('grayscale')">
+                <div class="card-icon">🌈</div>
+                <div class="card-content">
+                    <h3>色阶测试</h3>
+                    <p>检测屏幕的灰阶过渡是否平滑，是否有色带现象</p>
+                </div>
+            </div>
+
+            <div class="test-card" onclick="startTest('saturation')">
+                <div class="card-icon">🎨</div>
+                <div class="card-content">
+                    <h3>饱和度测试</h3>
+                    <p>测试屏幕的色彩饱和度和色彩还原能力</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <a href="about.html">关于</a>
+                <span class="divider">•</span>
+                <a href="privacy.html">隐私政策</a>
+            </div>
+            <p class="footer-text">© 2025 屏幕检测专家 | 作者: 丁老师</p>
+        </footer>
+    </div>
+
+    <!-- 全屏测试容器 -->
+    <div id="fullscreenTest" class="fullscreen-test"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
