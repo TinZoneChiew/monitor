@@ -241,6 +241,7 @@ monitor/
 ├── js/
 │   └── script.js       # 核心交互逻辑
 ├── .gitignore          # Git 忽略文件
+├── LICENSE             # MIT 许可证
 └── README.md           # 项目文档
 ```
 
